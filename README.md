@@ -10,8 +10,14 @@ You can try it by cloning this repository and do:
 
 ```sh
 npx @forsakringskassan/openapi-node-client-generator-cli@latest \
- --package-name X \
+ --package-name $(basename "$PWD") \
  --package-version $(npx git-changelog-command-line --print-next-version)
 ```
 
-This is typically done by a CI pipeline where the generated NPM package is also published.
+A pipeline building this would typically do something like:
+
+ - Clone repository
+ - Run `openapi-node-client-generator-cli` on it
+ - `npm install`
+ - `npm run build`
+ - `npm publish`
