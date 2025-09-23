@@ -1,6 +1,6 @@
 # OpenAPI Node Client Template
 
-This is a template repository to show how to generate code from OpenAPI spec using [openapi-node-client-generator-cli](https://github.com/Forsakringskassan/openapi-node-client-generator-cli).
+This is a template repository to show how to generate code from OpenAPI spec using [openapi-node-client-generator-cli](https://github.com/Forsakringskassan/openapi-node-client-generator-cli). The idea is to copy this repository when creating new API:s.
 
 ## Try it
 
