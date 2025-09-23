@@ -1,17 +1,31 @@
-# OpenAPI Node Client Template
+# API Template
 
-This is a template repository to show how to generate code from OpenAPI spec using [openapi-node-client-generator-cli](https://github.com/Forsakringskassan/openapi-node-client-generator-cli). The idea is to copy this repository when creating new API:s.
+This is a template repository for API:s. The idea is to copy this repository when creating new API:s.
+
+## NodeJS
+
+Code is generated from OpenAPI spec using [openapi-node-client-generator-cli](https://github.com/Forsakringskassan/openapi-node-client-generator-cli).
 
 This template also contains [mocks](/src/mock) that are on the format used by [apimock-express](https://github.com/Forsakringskassan/apimock-express).
 
-## Try it
+Output is a fully working, type safe, Fetch-client and type safe mocks. Packaged as an NPM package.
+
+### Try it
 
 You can try it by cloning this repository and do:
 
 ```sh
 npx @forsakringskassan/openapi-node-client-generator-cli@latest \
- --package-name X \
- --package-version $(npx git-changelog-command-line --print-next-version)
+ --package-name $(basename "$PWD") \
+ --package-version $(npx git-changelog-command-line --print-next-version) \
+ && npm install \
+ && npm run build
 ```
 
-This is typically done by a CI pipeline where the generated NPM package is also published.
+And cleanup with `npm run git:clean`.
+
+## Gradle
+
+This repository also has the `se.fk.gradle.bundle-openapi` plugin from [gradle-conventions](https://github.com/Forsakringskassan/gradle-conventions).
+
+It creates a JAR with the openapi specification in it. So that it can be published to a repository and used for code generation on the consumer side. See more in [gradle-conventions](https://github.com/Forsakringskassan/gradle-conventions).

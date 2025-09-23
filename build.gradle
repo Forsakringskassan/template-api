@@ -1,0 +1,23 @@
+buildscript {
+  repositories {
+	gradlePluginPortal()
+	mavenCentral()
+	maven {
+		url = uri("https://maven.pkg.github.com/Forsakringskassan/gradle-conventions")
+		credentials {
+			username = System.getenv("GITHUB_ACTOR")
+			password = System.getenv("GITHUB_TOKEN")
+		}
+	}
+  }
+
+  dependencies {
+    classpath "se.fk.gradle:gradle-conventions:1.0.1"
+  }
+}
+
+apply plugin: "se.fk.gradle.bundle-openapi"
+
+fkOpenApi {
+	generatorName.set("openapi-yaml")
+}

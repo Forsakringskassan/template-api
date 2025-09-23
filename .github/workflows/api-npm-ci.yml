@@ -27,4 +27,6 @@ jobs:
               run: |
                   npm ci
             - name: Build
-              run: npm run --if-present build
+              run: npm run build
+            - name: Pack
+              run: npm pack
