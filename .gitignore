@@ -1,0 +1,12 @@
+build.mjs
+dist
+dts-config.js
+node_modules
+openapitools.json
+package-lock.json
+package.json
+src
+template
+tsconfig.json
+typescript-axios
+typescript-fetch
