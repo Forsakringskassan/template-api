@@ -5,7 +5,7 @@ node_modules
 openapitools.json
 package-lock.json
 package.json
-src
+src/helpers.ts
 template
 tsconfig.json
 typescript-axios
