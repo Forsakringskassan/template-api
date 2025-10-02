@@ -1,12 +1,8 @@
-name: Publish release on tag push
+name: Call publish release
 
 on:
   workflow_dispatch:
-  workflow_call:
-  push:
-    tags:
-      - "*"
 
 jobs:
-  call-workflow:
+  call-release:
     uses: Forsakringskassan/.github/.github/workflows/publish-release-on-tag-push.yaml@main
