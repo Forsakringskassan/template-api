@@ -1,3 +1,9 @@
+## 1.1.0 (2025-10-02)
+
+### Features
+
+-  bundle workflows ([e7122](https://github.com/Forsakringskassan/template-api/commit/e712282056204ac) Tomas Bjerre)  
+
 ## 1.0.12 (2025-10-02)
 
 ### Bug Fixes
