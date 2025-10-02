@@ -4,10 +4,8 @@ buildscript {
 	mavenCentral()
 	maven {
 		url = uri("https://maven.pkg.github.com/Forsakringskassan/gradle-conventions")
-		credentials {
-			username = System.getenv("GITHUB_ACTOR")
-			password = System.getenv("GITHUB_TOKEN")
-		}
+		credentials { username = System.getenv("GITHUB_ACTOR")
+		password = System.getenv("GITHUB_TOKEN") }
 	}
   }
 
