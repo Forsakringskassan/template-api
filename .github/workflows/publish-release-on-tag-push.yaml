@@ -8,5 +8,5 @@ on:
       - "*"
 
 jobs:
-  call-workflow:
+  call-release:
     uses: Forsakringskassan/.github/.github/workflows/publish-release-on-tag-push.yaml@main
