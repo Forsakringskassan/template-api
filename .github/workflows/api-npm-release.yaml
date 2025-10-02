@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     tags:
-      - "*" # Gradle-releasen will push a tag tag triggers this NPM release
+      - "*"
 
 jobs:
   call-workflow:
