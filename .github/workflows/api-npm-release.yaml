@@ -2,9 +2,10 @@ name: NPM API Release
 
 on:
   workflow_dispatch:
-  push:
-    tags:
-      - "*"
+  workflow_run:
+    workflows: ["Gradle Release"]
+    types:
+      - completed
 
 jobs:
   call-workflow:
