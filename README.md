@@ -33,7 +33,7 @@ It creates a JAR with the openapi specification in it. So that it can be publish
 
 ## Release
 
-Release is triggered by Gradle, it will push a tag that triggers the NPM release: <https://github.com/Forsakringskassan/template-api/actions/workflows/gradle-release.yaml>
+Release is triggered by Gradle, it will push a tag that triggers the NPM release: <https://github.com/Forsakringskassan/template-api/actions/workflows/api-npm-release.yaml>
 
 The release will publish:
 
