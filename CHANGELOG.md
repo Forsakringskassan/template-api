@@ -1,3 +1,9 @@
+## 1.0.12 (2025-10-02)
+
+### Bug Fixes
+
+-  trying to fix release ([9829d](https://github.com/Forsakringskassan/template-api/commit/9829d16fe740631) Tomas Bjerre)  
+
 ## 1.0.11 (2025-10-02)
 
 ### Bug Fixes
