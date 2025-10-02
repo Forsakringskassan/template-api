@@ -2,7 +2,6 @@ name: NPM API Release
 
 on:
   workflow_dispatch:
-  workflow_call:
   push:
     tags:
       - "*" # Gradle-releasen will push a tag tag triggers this NPM release
@@ -10,3 +9,5 @@ on:
 jobs:
   call-workflow:
     uses: Forsakringskassan/.github/.github/workflows/api-npm-release.yaml@main
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
