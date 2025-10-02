@@ -2,11 +2,25 @@ name: NPM API Release
 
 on:
   workflow_dispatch:
-  workflow_call:
   push:
     tags:
       - "*" # Gradle-releasen will push a tag tag triggers this NPM release
 
 jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if NPM_TOKEN is available
+        run: |
+          if [ -z "${{ secrets.NPM_TOKEN }}" ]; then
+            echo "NPM_TOKEN is not available"
+            exit 1
+          else
+            echo "NPM_TOKEN is available"
+          fi
+  
   call-workflow:
+    needs: debug
     uses: Forsakringskassan/.github/.github/workflows/api-npm-release.yaml@main
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
