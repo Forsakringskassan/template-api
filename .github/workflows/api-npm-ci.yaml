@@ -1,7 +1,7 @@
-name: NPM API CI
+name: Bundle API CI
 
 on: [workflow_dispatch, workflow_call, push, pull_request]
 
 jobs:
   call-workflow:
-    uses: Forsakringskassan/.github/.github/workflows/api-npm-ci.yaml@main
+    uses: Forsakringskassan/.github/.github/workflows/bundle-api-npm-ci.yaml@main
