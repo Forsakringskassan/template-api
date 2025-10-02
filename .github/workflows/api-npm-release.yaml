@@ -8,6 +8,6 @@ on:
 
 jobs:
   call-workflow:
-    uses: Forsakringskassan/.github/.github/workflows/api-npm-release.yaml@main
+    uses: Forsakringskassan/.github/.github/workflows/api-npm-release.yaml@4a0ffca
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
