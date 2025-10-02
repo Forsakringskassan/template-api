@@ -18,6 +18,7 @@ You can try it by cloning this repository and do:
 npx @forsakringskassan/openapi-node-client-generator-cli@latest \
  --package-name $(basename "$PWD") \
  --package-version $(npx git-changelog-command-line --print-next-version) \
+ --package-url https://github.com/Forsakringskassan/${GITHUB_REPOSITORY} \
  && npm install \
  && npm run build
 ```
