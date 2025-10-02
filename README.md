@@ -29,3 +29,12 @@ And cleanup with `npm run git:clean`.
 This repository also has the `se.fk.gradle.bundle-openapi` plugin from [gradle-conventions](https://github.com/Forsakringskassan/gradle-conventions).
 
 It creates a JAR with the openapi specification in it. So that it can be published to a repository and used for code generation on the consumer side. See more in [gradle-conventions](https://github.com/Forsakringskassan/gradle-conventions).
+
+## Release
+
+Release is triggered by Gradle, it will push a tag that triggers the NPM release: <https://github.com/Forsakringskassan/template-api/actions/workflows/gradle-release.yaml>
+
+The release will publish:
+
+- Maven artefact: <https://github.com/orgs/Forsakringskassan/packages?repo_name=template-api>
+- NPM package: <https://www.npmjs.com/package/@forsakringskassan/template-api>
