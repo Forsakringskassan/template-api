@@ -2,6 +2,50 @@
 
 This is a template repository for API:s. The idea is to copy this repository when creating new API:s.
 
+```mermaid
+flowchart TB
+    %% Define nodes with better structure
+    openapi["📄 OpenAPI<br/>Specification"]:::spec
+    
+    %% Build artifacts
+    npm["📦 NPM Package<br/><small>TypeScript Client + Mocks</small>"]:::npm
+    jar["☕ JAR Package<br/><small>OpenAPI Spec Bundle</small>"]:::jar
+    
+    %% Repository
+    repo[("🏛️ Repository<br/><small>Maven / NPM</small>")]:::repo
+    
+    %% Applications
+    app1["🖥️ REST Application A<br/><small>Implements API</small>"]:::server
+    app2["🖥️ REST Application B<br/><small>Consumes API</small>"]:::client
+    webapp["🌐 Web Application<br/><small>Frontend Client</small>"]:::web
+
+    %% Build flow
+    openapi -.->|"🔨 gradle build"| jar
+    openapi -.->|"⚙️ npm build"| npm
+    
+    %% Publish flow
+    jar -->|"📤 publish"| repo
+    npm -->|"📤 publish"| repo
+    
+    %% Usage flow
+    repo -->|"☕ Maven"| app1
+    repo -->|"☕ Maven"| app2
+    repo -->|"📦 npm install"| webapp
+    
+    %% Integration flow
+    app2 -.->|"🔗 HTTP API calls"| app1
+    webapp -.->|"🔗 HTTP API calls"| app1
+
+    %% Styling
+    classDef spec fill:#e1f5fe,stroke:#0277bd,stroke-width:3px,color:#000
+    classDef npm fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
+    classDef jar fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000
+    classDef repo fill:#e8f5e8,stroke:#2e7d32,stroke-width:3px,color:#000
+    classDef server fill:#fff8e1,stroke:#f57f17,stroke-width:2px,color:#000
+    classDef client fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#000
+    classDef web fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#000
+```
+
 ## NodeJS
 
 Code is generated from OpenAPI spec using [openapi-node-client-generator-cli](https://github.com/Forsakringskassan/openapi-node-client-generator-cli).
