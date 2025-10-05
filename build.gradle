@@ -13,11 +13,15 @@ buildscript {
   }
 
   dependencies {
-    classpath "se.fk.gradle:gradle-conventions:1.5.0"
+    classpath "se.fk.gradle:gradle-conventions:1.6.0"
   }
 }
 
 apply plugin: "se.fk.gradle.bundle-openapi"
+
+javaExtension {
+	javaVersion = 21
+}
 
 fkOpenApi {
 	generatorName.set("openapi-yaml")
