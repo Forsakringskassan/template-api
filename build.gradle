@@ -6,14 +6,14 @@ buildscript {
 	maven {
 	  url = uri("https://maven.pkg.github.com/Forsakringskassan/gradle-conventions")
 	  credentials {
-	    username = System.getenv("GITHUB_ACTOR")
-	    password = System.getenv("GITHUB_TOKEN")
+        username = project.findProperty("GITHUB_ACTOR") ?: System.getenv("GITHUB_ACTOR")
+        password = project.findProperty("GITHUB_TOKEN") ?: System.getenv("GITHUB_TOKEN")
 	  }
 	}
   }
 
   dependencies {
-    classpath "se.fk.gradle:gradle-conventions:1.6.0"
+    classpath "se.fk.gradle:gradle-conventions:1.7.2"
   }
 }
 
