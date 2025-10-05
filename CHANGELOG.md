@@ -1,3 +1,19 @@
+## 1.2.0 (2025-10-05)
+
+### Features
+
+-  java 21 ([2ec63](https://github.com/Forsakringskassan/template-api/commit/2ec63d34ece6c76) Tomas Bjerre)  
+-  automatically find package repositories within fk ([d833b](https://github.com/Forsakringskassan/template-api/commit/d833b0d3d028c3c) Tomas Bjerre)  
+
+### Dependency updates
+
+- dependencies ([a9539](https://github.com/Forsakringskassan/template-api/commit/a95399a75a76c73) Tomas Bjerre)  
+- dependencies ([41823](https://github.com/Forsakringskassan/template-api/commit/41823c6a3e420f6) Tomas Bjerre)  
+- update gradle to v9 ([ca704](https://github.com/Forsakringskassan/template-api/commit/ca70466b753fc13) renovate[bot])  
+- deps ([a0165](https://github.com/Forsakringskassan/template-api/commit/a0165342c2be22d) Tomas Bjerre)  
+- dependencies ([a0498](https://github.com/Forsakringskassan/template-api/commit/a049847450cc369) Tomas Bjerre)  
+- gradle-conventions ([44220](https://github.com/Forsakringskassan/template-api/commit/442208ab9e9a51b) Tomas Bjerre)  
+- gradle-conventions ([5c029](https://github.com/Forsakringskassan/template-api/commit/5c029c4a7f517f8) Tomas Bjerre)  
 ## 1.1.0 (2025-10-02)
 
 ### Features
