@@ -17,3 +17,4 @@ src/main/resources/openapi.yaml
 build
 .gradle
 bin
+
