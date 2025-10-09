@@ -1,3 +1,12 @@
+## 1.3.0 (2025-10-09)
+
+### Features
+
+-  example with jaxrs and openapi spec ([6393f](https://github.com/Forsakringskassan/template-api/commit/6393fb126a06758) Tomas Bjerre)  
+
+### Dependency updates
+
+- beroenden ([6691a](https://github.com/Forsakringskassan/template-api/commit/6691a4b66b16641) Tomas Bjerre)  
 ## 1.2.1 (2025-10-06)
 
 ### Bug Fixes
