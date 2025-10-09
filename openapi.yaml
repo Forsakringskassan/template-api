@@ -9,6 +9,7 @@ servers:
 paths:
   /api/ping:
     get:
+      tags: [PingController]
       summary: Health check endpoint
       description: Returns a pong response to confirm the API is alive.
       responses:
