@@ -1,3 +1,9 @@
+## 1.4.0 (2025-10-09)
+
+### Features
+
+-  ger controllern ett namn så det inte blir default ([57127](https://github.com/Forsakringskassan/template-api/commit/57127914d2074da) Tomas Bjerre)  
+
 ## 1.3.0 (2025-10-09)
 
 ### Features
