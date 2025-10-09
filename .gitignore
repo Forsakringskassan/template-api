@@ -18,5 +18,5 @@ build
 .gradle
 bin
 
-example-*/src/
+*/src/
 
