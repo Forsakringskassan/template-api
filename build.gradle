@@ -19,10 +19,29 @@ buildscript {
 
 apply plugin: "se.fk.gradle.bundle-openapi"
 
-javaExtension {
-	javaVersion = 21
+allprojects {
+	javaExtension {
+		javaVersion = 21
+	}
 }
 
-fkOpenApi {
-	generatorName.set("openapi-yaml")
-}
+project("example-spec",{
+	fkOpenApi {
+		generatorName.set("openapi-yaml")
+	}
+})
+
+project("example-jaxrs-spec",{
+	fkOpenApi {
+		generatorName.set("jaxrs-spec")
+	}
+
+	dependencies {
+		compileOnly 'jakarta.ws.rs:jakarta.ws.rs-api:3.1.0'
+		compileOnly 'jakarta.annotation:jakarta.annotation-api:2.1.1'
+		compileOnly 'jakarta.validation:jakarta.validation-api:3.0.2'
+		compileOnly 'com.fasterxml.jackson.core:jackson-databind:2.17.2'
+		compileOnly 'com.fasterxml.jackson.core:jackson-annotations:2.17.2'
+		compileOnly 'com.fasterxml.jackson.core:jackson-core:2.17.2'
+	}
+})
