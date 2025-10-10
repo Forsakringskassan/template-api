@@ -8,6 +8,6 @@ See:
 
 Artifacts:
 
-- Maven artefact: <https://github.com/orgs/Forsakringskassan/packages?repo_name=template-api>
+- Maven artefact: <https://github.com/Forsakringskassan/repository>
 - NPM package: <https://www.npmjs.com/package/@forsakringskassan/template-api>
   - Including client and also [mocks](/src/mock) for [apimock-express](https://github.com/Forsakringskassan/apimock-express).
