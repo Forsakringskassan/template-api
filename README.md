@@ -2,7 +2,7 @@
 
 See:
 
-- `se.fk.gradle.bundle-openapi` in [gradle-conventions](https://github.com/Forsakringskassan/repository).
+- `se.fk.gradle.bundle-openapi` in [gradle-conventions](https://github.com/Forsakringskassan/gradle-conventions).
 - [openapi-node-client-generator-cli](https://github.com/Forsakringskassan/openapi-node-client-generator-cli)
 
 
