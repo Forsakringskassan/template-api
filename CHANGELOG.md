@@ -1,3 +1,9 @@
+## 1.6.1 (2025-10-10)
+
+### Bug Fixes
+
+-  triggar vesion ([2611a](https://github.com/Forsakringskassan/template-api/commit/2611a6dd713e59b) Tomas Bjerre)  
+
 ## 1.6.0 (2025-10-10)
 
 ### Features
