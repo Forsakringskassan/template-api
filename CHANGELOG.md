@@ -1,3 +1,9 @@
+## 1.6.0 (2025-10-10)
+
+### Features
+
+-  publish till gemensamt repo ([bc0c9](https://github.com/Forsakringskassan/template-api/commit/bc0c93b09399069) Tomas Bjerre)  
+
 ## 1.5.0 (2025-10-10)
 
 ### Features
