@@ -1,3 +1,15 @@
+## 1.5.0 (2025-10-10)
+
+### Features
+
+-  publish till gemensamt repo ([e5de1](https://github.com/Forsakringskassan/template-api/commit/e5de16d95ecda35) Tomas Bjerre)  
+-  **deps**  update dependency jakarta.annotation:jakarta.annotation-api to v3 ([d85f8](https://github.com/Forsakringskassan/template-api/commit/d85f8ee15c1e7ef) renovate[bot])  
+
+### Bug Fixes
+
+-  **deps**  update jackson monorepo ([38d58](https://github.com/Forsakringskassan/template-api/commit/38d58eb73eb8476) renovate[bot])  
+-  **deps**  update dependency jakarta.validation:jakarta.validation-api to v3.1.1 ([d1c23](https://github.com/Forsakringskassan/template-api/commit/d1c232fc5b01ed9) renovate[bot])  
+
 ## 1.4.0 (2025-10-09)
 
 ### Features
