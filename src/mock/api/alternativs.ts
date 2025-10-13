@@ -1,27 +1,27 @@
-import { pingResponse } from "../objects/PingResponse";
+import { alternativesResponse } from "../objects/Alternatives";
 import {
     defineMock,
     createResponseByCookie,
 } from "@forsakringskassan/apimock-express/helpers";
 
-const cookie = "api-ping";
+const cookie = "api-alternatives";
 
 export default defineMock({
     meta: {
-        title: "GET /api/ping",
+        title: "GET /api/alternatives",
         method: "GET",
-        url: "/api/ping",
+        url: "/api/alternatives",
     },
     responses: [
         createResponseByCookie(cookie, "slow-response", {
             label: "Slow response",
-            status: 202,
-            delay: 15000,
-            body: pingResponse,
+            status: 200,
+            delay: 3000,
+            body: alternativesResponse,
         }),
     ],
     defaultResponse: {
         status: 200,
-        body: pingResponse,
+        body: alternativesResponse,
     },
 });

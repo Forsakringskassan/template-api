@@ -1,30 +1,71 @@
 openapi: 3.0.3
 info:
-  title: Ping API
-  description: A simple API with a ping endpoint.
+  title: Fullmakts API
+  description: An example API to use for templating.
   version: 1.0.0
 servers:
   - url: https://api.example.com
     description: Example server
 paths:
-  /api/ping:
+  /api/alternatives:
     get:
-      tags: [PingController]
+      tags: [FullmaktsController]
       summary: Health check endpoint
       description: Returns a pong response to confirm the API is alive.
       responses:
         '200':
-          description: Successful ping
+          description: Successful
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/PingResponse'
+                $ref: '#/components/schemas/AlternativesResponse'
+  /api/ombud:
+    put:
+      tags: [FullmaktsController]
+      summary: Kontrollera ombud
+      description: Ombud namn.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OmbudRequest'
+      responses:
+        '200':
+          description: Successful
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OmbudResponse'
+        '204':
+          description: Ombud not found
 
 components:
   schemas:
-    PingResponse:
+    AlternativesResponse:
+      properties:
+        alternatives:
+          type: array
+          items:
+            $ref: '#/components/schemas/Alternative'
+    Alternative:
       type: object
       properties:
-        pong:
-          type: boolean
-          example: true
+        id:
+          type: string
+          example: "1"
+        name:
+          type: string
+          example: "Alternative 1"
+    OmbudRequest:
+      type: object
+      properties:
+        personnummer:
+          type: string
+          example: "YYYYMMDDXXXX"
+    OmbudResponse:
+      type: object
+      properties:
+        name:
+          type: string
+          example: "AAAAAA BBBBBB"

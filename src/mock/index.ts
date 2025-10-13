@@ -1,4 +1,7 @@
-import ping from "./api/ping";
-export { pingResponse } from "./objects/PingResponse";
+import alternatives from "./api/alternativs";
+import ombud from "./api/ombud";
 
-export const mockApi = [ping];
+export { ombudResponse } from "./objects/Ombud";
+export { alternativesResponse } from "./objects/Alternatives";
+
+export const mockApi = [alternatives, ombud];
