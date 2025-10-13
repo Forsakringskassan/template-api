@@ -1,3 +1,11 @@
+## 1.7.0 (2025-10-13)
+
+### Features
+
+-  fullmaktsapi ([4b867](https://github.com/Forsakringskassan/template-api/commit/4b867eec8e947a3) Tomas Bjerre)  
+-  **deps**  update dependency jakarta.ws.rs:jakarta.ws.rs-api to v4 ([dfcde](https://github.com/Forsakringskassan/template-api/commit/dfcde53ef1a0a1d) renovate[bot])  
+-  publish till gemensamt repo ([37acc](https://github.com/Forsakringskassan/template-api/commit/37accdd20eae729) Tomas Bjerre)  
+
 ## 1.6.1 (2025-10-10)
 
 ### Bug Fixes
