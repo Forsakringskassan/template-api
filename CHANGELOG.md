@@ -1,3 +1,9 @@
+## 1.7.1 (2025-10-13)
+
+### Bug Fixes
+
+-  mandatory ([dcef4](https://github.com/Forsakringskassan/template-api/commit/dcef44f94bb9f82) Tomas Bjerre)  
+
 ## 1.7.0 (2025-10-13)
 
 ### Features
