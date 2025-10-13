@@ -57,15 +57,22 @@ components:
         name:
           type: string
           example: "Alternative 1"
+      required:
+        - id
+        - name  
     OmbudRequest:
       type: object
       properties:
         personnummer:
           type: string
           example: "YYYYMMDDXXXX"
+      required:
+        - personnummer
     OmbudResponse:
       type: object
       properties:
         name:
           type: string
           example: "AAAAAA BBBBBB"
+      required:
+        - name
