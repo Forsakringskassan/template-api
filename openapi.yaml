@@ -7,7 +7,7 @@ servers:
   - url: https://api.example.com
     description: Example server
 paths:
-  /api/alternatives:
+  /api/template/alternatives:
     get:
       tags: [FullmaktsController]
       summary: Health check endpoint
@@ -19,7 +19,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/AlternativesResponse'
-  /api/ombud:
+  /api/template/ombud:
     put:
       tags: [FullmaktsController]
       summary: Kontrollera ombud

@@ -1,7 +1,10 @@
-import alternatives from "./api/alternativs";
-import ombud from "./api/ombud";
+import alternatives from "./api/template/alternatives";
+import ombud from "./api/template/ombud";
 
 export { ombudResponse } from "./objects/Ombud";
-export { alternativesResponse } from "./objects/Alternatives";
+export {
+    alternativesResponse_one,
+    alternativesResponse_two,
+} from "./objects/Alternatives";
 
 export const mockApi = [alternatives, ombud];

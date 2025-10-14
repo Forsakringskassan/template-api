@@ -1,4 +1,4 @@
-import { ombudResponse } from "../objects/Ombud";
+import { ombudResponse } from "../../objects/Ombud";
 import {
     defineMock,
     createResponseByCookie,
@@ -8,18 +8,18 @@ const cookie = "api-ombud";
 
 export default defineMock({
     meta: {
-        title: "GET /api/ombud",
+        title: "GET /api/template/ombud",
         method: "GET",
-        url: "/api/ombud",
+        url: "/api/template/ombud",
     },
     responses: [
-        createResponseByCookie(cookie, "slow-response", {
-            label: "Slow response",
+        createResponseByCookie(cookie, "very-slow-response", {
+            label: "Very slow response",
             status: 200,
             delay: 3000,
             body: ombudResponse,
         }),
-        createResponseByCookie(cookie, "slow-ok", {
+        createResponseByCookie(cookie, "slow-response", {
             label: "Slow response",
             status: 200,
             delay: 100,
