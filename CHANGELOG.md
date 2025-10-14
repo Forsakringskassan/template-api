@@ -4,6 +4,12 @@
 
 -  låter Gradle applicera openapi-node-client-generator-cli ([e2bcd](https://github.com/Forsakringskassan/template-api/commit/e2bcd702e3c9c19) Tomas Bjerre)  
 
+## 1.8.0 (2025-10-14)
+
+### Features
+
+-  låter Gradle applicera openapi-node-client-generator-cli ([e2bcd](https://github.com/Forsakringskassan/template-api/commit/e2bcd702e3c9c19) Tomas Bjerre)  
+
 ## 1.7.1 (2025-10-13)
 
 ### Bug Fixes
