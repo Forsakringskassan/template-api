@@ -1,3 +1,9 @@
+## 1.9.0 (2025-10-14)
+
+### Features
+
+-  flyttar från /api till /api/template ([30deb](https://github.com/Forsakringskassan/template-api/commit/30deb5d55ea6e0d) Tomas Bjerre)  
+
 ## 1.8.2 (2025-10-14)
 
 ### Bug Fixes
