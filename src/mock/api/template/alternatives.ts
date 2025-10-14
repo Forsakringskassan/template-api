@@ -20,13 +20,13 @@ export default defineMock({
             label: "One alternative",
             status: 200,
             delay: 100,
-            body: alternativesResponse_two,
+            body: alternativesResponse_one,
         }),
         createResponseByCookie(cookie, "two-alternatives", {
             label: "Two alternatives",
             status: 200,
             delay: 100,
-            body: alternativesResponse_one,
+            body: alternativesResponse_two,
         }),
     ],
     defaultResponse: {
