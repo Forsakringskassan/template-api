@@ -1,3 +1,9 @@
+## 1.9.2 (2025-10-14)
+
+### Bug Fixes
+
+-  mock ([c4f64](https://github.com/Forsakringskassan/template-api/commit/c4f645d0b20b15e) Tomas Bjerre)  
+
 ## 1.9.1 (2025-10-14)
 
 ### Bug Fixes
