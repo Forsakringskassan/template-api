@@ -10,8 +10,9 @@ paths:
   /api/template/alternatives:
     get:
       tags: [FullmaktsController]
-      summary: Health check endpoint
-      description: Returns a pong response to confirm the API is alive.
+      operationId: getAlternatives
+      summary: Get alternatives
+      description: Returns a list of alternative options.
       responses:
         '200':
           description: Successful
@@ -22,8 +23,9 @@ paths:
   /api/template/ombud:
     put:
       tags: [FullmaktsController]
-      summary: Kontrollera ombud
-      description: Ombud namn.
+      operationId: checkOmbud
+      summary: Check ombud
+      description: Checks if an ombud exists for the given personnummer.
       requestBody:
         required: true
         content:
