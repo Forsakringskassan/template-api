@@ -1,3 +1,9 @@
+## 1.10.0 (2025-10-15)
+
+### Features
+
+-  operationId ([dd6dd](https://github.com/Forsakringskassan/template-api/commit/dd6dd97ed5125cb) Tomas Bjerre)  
+
 ## 1.9.2 (2025-10-14)
 
 ### Bug Fixes
