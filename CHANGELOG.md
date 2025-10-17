@@ -1,3 +1,9 @@
+## 1.10.1 (2025-10-17)
+
+### Bug Fixes
+
+-  trigger version ([da22c](https://github.com/Forsakringskassan/template-api/commit/da22cba21f8bf17) Tomas Bjerre)  
+
 ## Unreleased ()
 
 ## 1.10.0 (2025-10-15)
