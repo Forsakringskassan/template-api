@@ -1,3 +1,14 @@
+## 1.11.0 (2025-10-28)
+
+### Features
+
+-  se.fk.gradle.include-virtual plugin ([d0ef3](https://github.com/Forsakringskassan/template-api/commit/d0ef3f2d4d1aa48) Tomas Bjerre)  
+
+### Bug Fixes
+
+-  **deps**  update dependency se.fk.gradle:gradle-conventions to v1.17.4 ([67fac](https://github.com/Forsakringskassan/template-api/commit/67faccfd041086f) renovate[bot])  
+-  **deps**  update dependency se.fk.gradle:gradle-conventions to v1.17.1 ([211ee](https://github.com/Forsakringskassan/template-api/commit/211ee53b1591f38) renovate[bot])  
+
 ## 1.10.1 (2025-10-17)
 
 ### Bug Fixes
