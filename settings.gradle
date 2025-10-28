@@ -1,1 +1,24 @@
-include "example-jaxrs-spec", "example-spec"
+pluginManagement {
+    repositories {
+        mavenLocal()
+        maven {
+            url = uri("https://maven.pkg.github.com/Forsakringskassan/repository")
+            credentials {
+                username = settings.providers.gradleProperty("GITHUB_ACTOR")
+                    .orElse(System.getenv("PACKAGES_RW_ACTOR"))
+                    .get()
+                password = settings.providers.gradleProperty("GITHUB_TOKEN")
+                    .orElse(System.getenv("PACKAGES_RW_TOKEN"))
+                    .get()
+            }
+        }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+plugins {
+   id 'se.fk.gradle.include-virtual' version '1.18.0'
+}
+
+includeVirtual "example-jaxrs-spec", "example-spec"
