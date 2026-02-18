@@ -6,6 +6,5 @@ jobs:
   call-workflow:
     uses: Forsakringskassan/.github/.github/workflows/bundle-api-npm-release.yaml@main
     secrets:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       PACKAGES_RW_ACTOR: ${{ secrets.PACKAGES_RW_ACTOR }}
       PACKAGES_RW_TOKEN: ${{ secrets.PACKAGES_RW_TOKEN }}
