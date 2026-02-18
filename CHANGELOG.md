@@ -13,6 +13,21 @@
 - update gradle to v9.2.1 ([9ef93](https://github.com/Forsakringskassan/template-api/commit/9ef93a6e4087835) renovate[bot])  
 - update plugin se.fk.gradle.bundle-openapi to v1.18.1 ([e8f3c](https://github.com/Forsakringskassan/template-api/commit/e8f3cba6d560d24) renovate[bot])  
 - update gradle to v9.2.0 ([531cf](https://github.com/Forsakringskassan/template-api/commit/531cfde113f5fa9) renovate[bot])  
+## 1.11.1 (2026-02-18)
+
+### Bug Fixes
+
+-  Remove NPM_TOKEN from api-npm-release.yaml ([65e5a](https://github.com/Forsakringskassan/template-api/commit/65e5ac1777e6eb0) Tomas Bjerre)  
+-  **deps**  update jackson monorepo ([30c39](https://github.com/Forsakringskassan/template-api/commit/30c3939b961d7ea) renovate[bot])  
+-  **deps**  update jackson monorepo to v2.20.1 ([b11f8](https://github.com/Forsakringskassan/template-api/commit/b11f80cd50dda0e) renovate[bot])  
+
+### Dependency updates
+
+- update gradle to v9.3.1 ([743db](https://github.com/Forsakringskassan/template-api/commit/743dbf636a26a97) renovate[bot])  
+- update gradle to v9.3.0 ([9ebc8](https://github.com/Forsakringskassan/template-api/commit/9ebc8d9f687933d) renovate[bot])  
+- update gradle to v9.2.1 ([9ef93](https://github.com/Forsakringskassan/template-api/commit/9ef93a6e4087835) renovate[bot])  
+- update plugin se.fk.gradle.bundle-openapi to v1.18.1 ([e8f3c](https://github.com/Forsakringskassan/template-api/commit/e8f3cba6d560d24) renovate[bot])  
+- update gradle to v9.2.0 ([531cf](https://github.com/Forsakringskassan/template-api/commit/531cfde113f5fa9) renovate[bot])  
 ## 1.11.0 (2025-10-28)
 
 ### Features
