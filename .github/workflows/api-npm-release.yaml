@@ -4,7 +4,7 @@ on: [workflow_dispatch]
 
 jobs:
   call-workflow:
-    uses: Forsakringskassan/.github/.github/workflows/bundle-api-npm-release.yaml@main
+    uses: Forsakringskassan/.github/.github/workflows/bundle-api-npm-release.yaml@f2d22e2d597a0ff18f78f10ec8abc54ffd0ab824 # main
     secrets:
       PACKAGES_RW_ACTOR: ${{ secrets.PACKAGES_RW_ACTOR }}
       PACKAGES_RW_TOKEN: ${{ secrets.PACKAGES_RW_TOKEN }}
