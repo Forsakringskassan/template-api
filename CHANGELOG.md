@@ -1,3 +1,17 @@
+## 1.11.3 (2026-05-29)
+
+### Bug Fixes
+
+-  **deps**  update jackson monorepo to v2.21.3 ([3ba0a](https://github.com/Forsakringskassan/template-api/commit/3ba0afbfdd52145) renovate[bot])  
+-  **deps**  update jackson monorepo to v2.21.2 ([282ca](https://github.com/Forsakringskassan/template-api/commit/282caa4a5094544) renovate[bot])  
+-  **deps**  update jackson monorepo to v2.21.1 ([3ebef](https://github.com/Forsakringskassan/template-api/commit/3ebef6508d9d468) renovate[bot])  
+
+### Dependency updates
+
+- update gradle to v9.5.1 ([71f49](https://github.com/Forsakringskassan/template-api/commit/71f496731443a50) renovate[bot])  
+- update gradle to v9.5.0 ([9e754](https://github.com/Forsakringskassan/template-api/commit/9e75482d85cbdde) renovate[bot])  
+- update gradle to v9.4.1 ([ced9b](https://github.com/Forsakringskassan/template-api/commit/ced9b2e6c956fac) renovate[bot])  
+- update gradle to v9.4.0 ([e0b0b](https://github.com/Forsakringskassan/template-api/commit/e0b0b590a98476f) renovate[bot])  
 ## 1.11.2 (2026-02-18)
 
 ### Bug Fixes
