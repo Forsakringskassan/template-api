@@ -1,3 +1,9 @@
+## 1.11.4 (2026-05-29)
+
+### Dependency updates
+
+- pin forsakringskassan/.github action to f2d22e2 ([50516](https://github.com/Forsakringskassan/template-api/commit/50516216c0c0dd4) renovate[bot])  
+- update plugin se.fk.gradle.bundle-openapi to v1.18.2 ([c035b](https://github.com/Forsakringskassan/template-api/commit/c035baf89e58bdd) renovate[bot])  
 ## 1.11.3 (2026-05-29)
 
 ### Bug Fixes
