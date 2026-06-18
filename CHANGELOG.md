@@ -1,3 +1,9 @@
+## 1.11.6 (2026-06-18)
+
+### Bug Fixes
+
+-  version bump ([1cacb](https://github.com/Forsakringskassan/template-api/commit/1cacb5966729699) David Sveningsson)  
+
 ## 1.11.5 (2026-06-18)
 
 ### Bug Fixes
