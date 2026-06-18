@@ -1,3 +1,11 @@
+## 1.11.5 (2026-06-18)
+
+### Bug Fixes
+
+-  **deps**  update jackson monorepo to v2.22.0 ([a3ca4](https://github.com/Forsakringskassan/template-api/commit/a3ca4cb61ed25f9) renovate[bot])  
+-  **deps**  update jackson monorepo to v2.22 ([3cc39](https://github.com/Forsakringskassan/template-api/commit/3cc39ad65bda372) renovate[bot])  
+-  **deps**  update jackson monorepo to v2.21.4 ([7034e](https://github.com/Forsakringskassan/template-api/commit/7034ee46854f9ac) renovate[bot])  
+
 ## 1.11.4 (2026-05-29)
 
 ### Dependency updates
